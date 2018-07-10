@@ -1,11 +1,3 @@
-app.all('/posts', function(req, res){
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "X-Requested-With");
-    res.send(
-        { posts : ... }
-    );
-});
-
 var togNum = 1;
 var togNum1 = 1;
     d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTA0sYVEpeavusV8KKN5NmbdrptBSvKhGnTZ36S2pe9AQJvaFFxHnrhjqL-SVkDa5jrUCJRERyLDvPs/pub?gid=1905050396&single=true&output=csv", function (data) {
